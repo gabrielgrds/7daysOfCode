@@ -34,4 +34,19 @@ if (COMPARAR O numeroDez e a stringDez) {
 }
 ```
 
-## Dia 2/7 
+## Dia 2/7 :sunglasses:
+
+Desafio: Perguntar o nome do usuário, idade e linguagem que está aprendendo. Após isso, dar a boa vinda para o usuário conforme exemplo:
+
+"Olá [nome], você tem [idade] anos e já está aprendendo [linguagem]!"
+
+Note que cada informação entre [ ] é uma das respostas dadas pela pessoa.
+
+Após isso, perguntar:
+
+Você gosta de estudar [linguagem]? Responda com o número 1 para SIM ou 2 para NÃO.
+
+E aí, dependendo da resposta, ele deve mostrar uma das seguintes mensagens:
+
+1 > Muito bom! Continue estudando e você terá muito sucesso.
+2 > Ahh que pena... Já tentou aprender outras linguagens?

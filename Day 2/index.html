@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="/">Gabriel Reis</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="/">Início</a></li>
+                <li><a href="/">Sobre</a></li>
+                <li><a href="/">Projeto</a></li>
+                <li><a href="/">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="subtitulo">Day 2</h2>
+        <form class="perguntas">
+            <div class="perguntaNome">
+                <label for="seuNome">Qual o seu nome?</label>
+                <input type="text" id="seuNome" class="input-padrao" required placeholder="Seu Nome">
+            </div>
+            <div class="perguntaIdade">
+                <label for="suaIdade">Qual a sua idade?</label>
+                <input type="number" id="suaIdade" class="input-padrao" required placeholder="Apenas Números">
+            </div>
+            <div class="perguntaLinguagem">
+                <label for="suaLinguagem">Qual linguagem de programação você está estudando?</label>
+                <input type="text" id="suaLinguagem" class="input-padrao" required placeholder="Linguagem de Programação">
+            </div>
+            <div class="botaoEnviar">
+                <input type="submit" value="Enviar" class="enviar">
+            </div>
+        </form>
+
+        <script src="main.js"></script>
+    </main>
+    <script src="mobile-navbar.js"></script>
+</body>
+
+</html>
