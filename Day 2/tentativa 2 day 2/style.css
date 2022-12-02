@@ -1,0 +1,27 @@
+.container {
+    background: #794b4b;
+    text-align: center;
+}
+
+.titulo-inicial {
+    font-weight: bolder;
+    color: gold;
+}
+
+.hello {
+    color: white;
+}
+
+.perguntas {
+    margin: 25px 0px 2px 0px;
+}
+
+.linguagem, .name, .age {
+    text-align: center;
+    border-radius: 6px;
+    width: 20%;
+}
+
+.botao {
+    margin: 25px 0px 2px 0px;
+}
